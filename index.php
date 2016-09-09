@@ -4,6 +4,7 @@
   require_once('inc/URLResolver.php');
   global $db;
 
+  // WP version
 
 if ($_GET['go']=="getcontent") {
   $cat = $_POST['cat'];
