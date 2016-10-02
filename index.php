@@ -28,17 +28,17 @@ if ($_GET['go']=="grabber") {
   }
 
   $kategori = $_GET['kategori'];
-  if ($kategori == "letfap") {
-      $site = "http://letfap.com/movie?sort=published&page=".$p;
+  if ($kategori == "xxx") {
+      $site = "http://xxx.com/movie?sort=published&page=".$p;
   }
-  if ($kategori == "jav789") {
-      $site = "http://jav789.com/movie?sort=published&page=".$p;
+  if ($kategori == "yyy") {
+      $site = "http://yyy.com/movie?sort=published&page=".$p;
   }
-  if ($kategori == "javhihi") {
-      $site = "http://javhihi.com/movie?sort=published&page=".$p;
+  if ($kategori == "zzz") {
+      $site = "http://zzz.com/movie?sort=published&page=".$p;
   }
   if ($kategori == NULL) {
-      $site = "http://javhihi.com/movie?sort=published&page=".$p;
+      $site = "http://zzz.com/movie?sort=published&page=".$p;
   }
 
   $resolver = new URLResolver();
@@ -189,10 +189,10 @@ if ($_GET['go']=="grabber") {
         <div class="pure-g">
           <?php
           $i=0;
-          if ($kategori == "letfap") {$linkURL = "http://www.letfap.com/"; }
-          if ($kategori == "jav789") {$linkURL = "http://www.jav789.com/"; }
-          if ($kategori == "javhihi") {$linkURL = "http://www.javhihi.com/"; }
-          if ($kategori == NULL) {$linkURL = "http://www.javhihi.com/"; }
+          if ($kategori == "letfap") {$linkURL = "http://www.xxx.com/"; }
+          if ($kategori == "jav789") {$linkURL = "http://www.yyy.com/"; }
+          if ($kategori == "javhihi") {$linkURL = "http://www.zzz.com/"; }
+          if ($kategori == NULL) {$linkURL = "http://www.xxx.com/"; }
 
           foreach(@$html->find('.item-thumbnail') as $article) {
               $i++;
