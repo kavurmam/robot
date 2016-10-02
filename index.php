@@ -131,9 +131,9 @@ if ($_GET['go']=="grabber") {
 
             <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a href="?go=home" class="pure-menu-link">Anasayfa</a></li>
-                <li class="pure-menu-item"><a href="?go=grabber&kategori=letfap&p=1" class="pure-menu-link">x-art arşivi</a></li>
-                <li class="pure-menu-item"><a href="?go=grabber&kategori=javhihi&p=1" class="pure-menu-link">kore arşivi</a></li>
-                <li class="pure-menu-item"><a href="?go=grabber&kategori=jav789&p=1" class="pure-menu-link">asya arşivi</a></li>
+                <li class="pure-menu-item"><a href="?go=grabber&kategori=xxx&p=1" class="pure-menu-link">x-art arşivi</a></li>
+                <li class="pure-menu-item"><a href="?go=grabber&kategori=yyy&p=1" class="pure-menu-link">kore arşivi</a></li>
+                <li class="pure-menu-item"><a href="?go=grabber&kategori=zzz&p=1" class="pure-menu-link">asya arşivi</a></li>
                 <li class="pure-menu-item"><a href="?go=addvideo" class="pure-menu-link">Video Ekle</a></li>
             </ul>
         </div>
